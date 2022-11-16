@@ -5,7 +5,7 @@ import {mobile} from '../responsive'
 
 const Container = styled.div`
     height: 60vh;
-    background-color: #fcf5f5;
+    background-color: #f7f5f5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +51,7 @@ const Newsletter = () => {
     return (
         <Container>
             <Title>Newsletter</Title>
-            <Description>Get timely updates from your favorite products</Description>
+            <Description>Get timely updates for your favorite products</Description>
             <InputContainer>
                 <Input placeholder='Your email'/>
                 <Button>
